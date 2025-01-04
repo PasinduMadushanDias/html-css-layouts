@@ -32,7 +32,6 @@
     text-align: center;
     line-height: 30px;
     margin-bottom: 10px;
-
 }
 
 #header-banner-div{
@@ -47,18 +46,43 @@
 
 #main-div{
     width: 100%;
-    min-height: 400px;
-    background-color: gray;
+    /* background-color: gray; */
+    margin-bottom: 10px;
 }
 
 #sidebar-div{
     width: 20%;
     min-height: 400px;
     background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 400px;
 }
 
 #bodyarea-div{
-    width: 100%;
+    width: 75%;
     min-height: 400px;
-    background-color: gray;
+    background-color: lightgray;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+}
+
+#wrapper-div{
+    width: 80%;
+    margin: auto;
 }
